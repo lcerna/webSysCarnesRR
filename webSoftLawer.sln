@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLayer", "BusinessLayer", "{49826574-CF65-4FD0-920C-A230F6B87F09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccessLayer", "DataAccessLayer", "{3377DFCF-E2C7-45CB-AAD0-7047B3278CDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransversalInfraestructure", "TransversalInfraestructure", "{1161034F-27A6-4408-87E8-E6B5ED4C9DB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserInterface", "UserInterface", "{B53C28EF-1089-4A95-BBA5-1AF83E9E5F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCRR.BL.BusinessEntities", "RCRR.BL.BusinessEntities\RCRR.BL.BusinessEntities.csproj", "{B63A6298-7924-49FD-BACF-FBEE3DEFE1A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCRR.BL.BusinessObjects", "RCRR.BL.BusinessObjects\RCRR.BL.BusinessObjects.csproj", "{799D5BFC-B447-4D28-85A1-4B6099F0C226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCRR.DA.DataAccessObjects", "COMP.DA.DataAccessObjects\RCRR.DA.DataAccessObjects.csproj", "{9A3FF85E-0056-4918-9FEA-3E3F9831DB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCRR.DA.IDataAccessObjects", "RCRR.DA.IDataAccessObjects\RCRR.DA.IDataAccessObjects.csproj", "{B2720130-9E8E-4983-BAE2-94B4D2E6D4D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCRR.IT.Utils", "RCRR.IT.Utils\RCRR.IT.Utils.csproj", "{48D1C456-6A36-4FDD-BE27-468AEE6AA8C2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebCarnesRR", "http://localhost:1776", "{E07174D2-565E-45CA-AB6C-2236A0367A08}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{b63a6298-7924-49fd-bacf-fbee3defe1a3}|RCRR.BL.BusinessEntities.dll;{9a3ff85e-0056-4918-9fea-3e3f9831db77}|COMP.DA.DataAccessObjects.dll;{B2720130-9E8E-4983-BAE2-94B4D2E6D4D2}|RCRR.DA.IDataAccessObjects.dll;{48D1C456-6A36-4FDD-BE27-468AEE6AA8C2}|RCRR.IT.Utils.dll;{799d5bfc-b447-4d28-85a1-4b6099f0c226}|RCRR.BL.BusinessObjects.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1776"
+		Debug.AspNetCompiler.PhysicalPath = "WebCarnesRR\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1776\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1776"
+		Release.AspNetCompiler.PhysicalPath = "WebCarnesRR\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1776\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "WebCarnesRR\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B63A6298-7924-49FD-BACF-FBEE3DEFE1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63A6298-7924-49FD-BACF-FBEE3DEFE1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63A6298-7924-49FD-BACF-FBEE3DEFE1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63A6298-7924-49FD-BACF-FBEE3DEFE1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799D5BFC-B447-4D28-85A1-4B6099F0C226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799D5BFC-B447-4D28-85A1-4B6099F0C226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799D5BFC-B447-4D28-85A1-4B6099F0C226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799D5BFC-B447-4D28-85A1-4B6099F0C226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3FF85E-0056-4918-9FEA-3E3F9831DB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3FF85E-0056-4918-9FEA-3E3F9831DB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3FF85E-0056-4918-9FEA-3E3F9831DB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3FF85E-0056-4918-9FEA-3E3F9831DB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2720130-9E8E-4983-BAE2-94B4D2E6D4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2720130-9E8E-4983-BAE2-94B4D2E6D4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2720130-9E8E-4983-BAE2-94B4D2E6D4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2720130-9E8E-4983-BAE2-94B4D2E6D4D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48D1C456-6A36-4FDD-BE27-468AEE6AA8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48D1C456-6A36-4FDD-BE27-468AEE6AA8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48D1C456-6A36-4FDD-BE27-468AEE6AA8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48D1C456-6A36-4FDD-BE27-468AEE6AA8C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07174D2-565E-45CA-AB6C-2236A0367A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07174D2-565E-45CA-AB6C-2236A0367A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07174D2-565E-45CA-AB6C-2236A0367A08}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07174D2-565E-45CA-AB6C-2236A0367A08}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B63A6298-7924-49FD-BACF-FBEE3DEFE1A3} = {49826574-CF65-4FD0-920C-A230F6B87F09}
+		{799D5BFC-B447-4D28-85A1-4B6099F0C226} = {49826574-CF65-4FD0-920C-A230F6B87F09}
+		{9A3FF85E-0056-4918-9FEA-3E3F9831DB77} = {3377DFCF-E2C7-45CB-AAD0-7047B3278CDF}
+		{B2720130-9E8E-4983-BAE2-94B4D2E6D4D2} = {3377DFCF-E2C7-45CB-AAD0-7047B3278CDF}
+		{48D1C456-6A36-4FDD-BE27-468AEE6AA8C2} = {1161034F-27A6-4408-87E8-E6B5ED4C9DB9}
+		{E07174D2-565E-45CA-AB6C-2236A0367A08} = {B53C28EF-1089-4A95-BBA5-1AF83E9E5F10}
+	EndGlobalSection
+EndGlobal
